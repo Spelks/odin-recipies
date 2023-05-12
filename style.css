@@ -1,13 +1,106 @@
 * {
     font-family: "Lucida Console", "Courier New", monospace;
+    text-decoration: none;
 }
 
 h1 {
-    text-align: center;
     color: #333;
 }
 
+h1,
+.menu-image,
+.menu ul {
+    text-align: center;
+}
+
+.menu ul li {
+    border: 1px solid transparent;
+}
+
+.menu ul li:hover {
+    border: 1px solid #333;
+    border-radius: 100px;
+    transition: 1.5s;
+}
+
 #top-header {
-    background-color: aqua;
+    background-color:lightblue;
     padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 11px;
+}
+
+.full-container {
+    padding: 0 20%;
+}
+
+.menu {
+    padding: 10px;
+    background-color: gainsboro;
+    border: 1px solid #666;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 11px;
+}
+
+.menu ul,
+.list ol {
+    list-style: none;
+}
+
+.menu ul {
+    list-style: none;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.home-btn,
+.top-btn {
+    padding: 5px 15px;
+    border: 2px solid transparent;
+    font-size: 20px;
+    border-radius: 11px;
+}
+.end-btns {
+    padding: 0 30px 30px;
+    margin-top: 20px;
+}
+
+div .home-btn {
+    background-color: greenyellow;
+}
+
+div .top-btn {
+    background-color: lightblue;
+}
+
+div .home-btn:hover {
+    background-color: #fff;
+    border: 2px solid greenyellow;
+    transition: 0.8s;
+}
+
+div .top-btn:hover {
+    background-color: #fff;
+    border: 2px solid lightblue;
+    transition: 0.8s;
+}
+
+.food-image {
+    height: auto;
+    width: 500px;
+    border-radius: 3px;
+}
+
+.list {
+    border: 1px solid #333;
+    border-radius: 11px;
+}
+
+.list.prep {
+    background-color: azure;
+}
+
+.list.steps {
+    background-color:aliceblue;
 }
