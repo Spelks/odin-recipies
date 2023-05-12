@@ -104,3 +104,9 @@ div .top-btn:hover {
 .list.steps {
     background-color:aliceblue;
 }
+
+.menu-image .odin-image {
+    height: auto;
+    width: 250px;
+    padding-top: 10px;
+}
